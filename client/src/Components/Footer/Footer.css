@@ -1,0 +1,83 @@
+.footer {
+    background-color: var(--footer-bg);
+    padding: 0 88px;
+}
+.container {
+    padding-top: 29px;
+    display: flex;
+}
+.section1 {
+    width: 238px;
+}
+.section1-text {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--mid-grey);
+    padding-top: 83px;
+}
+.hotline {
+    padding-top: 22px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+}
+.hotline p {
+    margin-left: 8px;
+}
+.number {
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 27px;
+    margin-top: 9px;
+}
+.address {
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 17px;
+    display: flex;
+}
+.address p {
+    margin-left: 8px;
+}
+.email {
+    font-weight: 600;
+    font-size: 10px;
+    padding-top: 16px;
+    display: flex;
+}
+.email p {
+    margin-left: 8px;
+    margin-bottom: 44px;
+}
+.section2 {
+    padding-left: 90px;
+    padding-top: 53px;
+}
+.section2 h1 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--deep-grey);
+    padding-bottom: 26px;
+}
+.section2 p {
+    font-weight: 500;
+    font-size: 10px;
+    padding-bottom: 8px;
+}
+.footer-img  {
+    display: flex;
+    padding-top: 22px;
+}
+.img1 {
+    padding-right: 8px;
+}
+.footer-selected {
+    color: var(--mid-green);
+}
+.copyright {
+    padding-top: 21px;
+    padding-bottom: 29px;
+    font-weight: 500;
+    font-size: 10px;
+}
