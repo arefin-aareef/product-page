@@ -1,8 +1,24 @@
+@font-face {
+	font-family: Proximanova;
+	src: url('./assets/Demo_Fonts/Fontspring-DEMO-proximanova-regular.otf');
+}
+
 :root {
-  --nav-info-color: #4abd88;
+  --light-green: #4abd88;
+  --lime-green: #C6F6D5;
+  --mid-green: #0db04b;
+  --deep-green: #11823B;
+  --dark-green: #22543D;
   --text-primary: #000000;
-  --text-secondary: #ffffff;
-  --btn-primary: #0db04b;
+  --white: #ffffff;
+  --input-border: #e5e5e5;
+
+  --banner-background: #F3F3EF;
+  --banner-details-header: #1D1D21;
+  --banner-details-tag-bg: #FEEBCB;
+  --banner-details-tag-text: #744210;
+  --deep-grey: #333333;
+  --light-grey: #777777;
 }
 html {
   max-width: 1280px;
@@ -15,72 +31,9 @@ html {
   margin: 0;
   padding: 0;
 }
-
-/* Navbar Design */
-
-.nav-info {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--nav-info-color);
-  color: var(--text-secondary);
-  padding: 4px 16px;
+body {
+  font-family: 'Proximanova',  Arial, sans-serif;
 }
-.nav-info p {
-  font-size: 12px;
-}
-.nav-info span {
-  padding: 0 8px;
-}
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  margin: 13px 30px 9px;
-  align-items: center;
-}
-.nav-part {
-  display: flex;
-  align-items: center;
-}
-.nav-part img {
-  margin: 0 32px 0 22px;
-}
-.nav-part a {
-  text-decoration: none;
-  color: var(--text-primary);
-  display: flex;
-  align-items: center;
-}
-.anchor-bar {
-  margin: 0 13px;
-}
-.angle-down {
-  margin-left: 4px;
-  margin-top: 5px;
-}
-.nav-input {
-  display: flex;
-  align-items: center;
-  border: 1px solid #e5e5e5;
-  border-radius: 4px;
-  padding: 14px;
-  width: 316px;
-}
-.nav-input input {
-  border: none;
-  margin-left: 9px;
-}
-.fav-icon {
-  position: relative;
-  margin: 12px 27px 6px 27px;
-}
-.fav-count {
-  background-color: var(--btn-primary);
-  color: var(--text-secondary);
-  border-radius: 50%;
-  text-align: center;
-  width: 17px;
-  height: 17px;
-  position: absolute;
-  top: -5px;
-  right: -5px;
+.special-element {
+  font-family: Arial, sans-serif;
 }
