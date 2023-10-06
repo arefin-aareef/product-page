@@ -13,12 +13,21 @@
   --white: #ffffff;
   --input-border: #e5e5e5;
 
-  --banner-background: #F3F3EF;
+  --body-bg: #F3F3EF;
   --banner-details-header: #1D1D21;
   --banner-details-tag-bg: #FEEBCB;
   --banner-details-tag-text: #744210;
   --deep-grey: #333333;
   --light-grey: #777777;
+  --mid-grey: #444444;
+  --btn-bg: #DFE3E8;
+
+  --product-type-bg: #B2F5EA;
+  --product-type-text: #234E52;
+  --product-discount-bg: #FEEBCB;
+  --product-discount-text: #744210;
+
+  --footer-bg: #ECECE8;
 }
 html {
   max-width: 1280px;

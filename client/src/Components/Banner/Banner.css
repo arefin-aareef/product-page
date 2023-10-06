@@ -1,6 +1,6 @@
 .banner {
     height: 621px;
-    background-color: var(--banner-background);
+    background-color: var(--body-bg);
 }
 .banner-nav p{
     display: flex;

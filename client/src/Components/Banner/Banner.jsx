@@ -6,7 +6,7 @@ import imageObj2 from '../../assets/images/imageObj2.png'
 import img1 from '../../assets/images/img1.png'
 import img2 from '../../assets/images/img2.png'
 import img3 from '../../assets/images/img3.png'
-import img4 from '../../assets/images/img4.png'
+import imgAdd from '../../assets/images/imgAdd.png'
 
 const Banner = () => {
 
@@ -88,7 +88,7 @@ const Banner = () => {
                         }
 
                     </div>
-                    <img src={img4} alt="" />
+                    <img src={imgAdd} alt="" />
                 </div>
             </div>
         </div>

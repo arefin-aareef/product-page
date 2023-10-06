@@ -1,0 +1,122 @@
+.products {
+    background-color: var(--body-bg);
+    padding-left: 45px;
+    padding-bottom: 50px;
+}
+.product-header {
+    display: flex;
+}
+.product-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 17px;
+}
+.btn-left {
+    background-color: var(--btn-bg);
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.btn-right {
+    background-color: var(--white);
+    border: none;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+.product-container {
+    display: flex;
+    margin-top: 18px;
+}
+.product-card {
+    margin-right: 12px;
+    background-color: var(--white);
+    width: 228px;
+    border-radius: 8px;
+    position: relative;
+}
+.product-btn {
+    width: 38px;
+    height: 38px;
+    background-color: var(--deep-green);
+    border: none;
+    border-radius: 50%;
+    color: var(--white);
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+}
+.image img {
+    height: 113px;
+    width: 113px;
+    margin: 0 auto;
+}
+.type {
+    display: flex;
+    justify-content: end;
+}
+.type p {
+    margin-right: 16px;
+    width: 93px;
+    background-color: var(--product-type-bg);
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: var(--product-type-text);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.stock {
+    color: var(--mid-green);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.discount {
+    background-color: var(--product-discount-bg);
+    margin-top: 6px;
+    margin-left: 16px;
+    width: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: var(--product-discount-text);
+}
+.weight {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--light-grey);
+    margin-left: 16px;
+    margin-top: 6px;
+}
+.price {
+    margin-left: 16px;
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+.price span {
+    color: var(--deep-green);
+    font-size: 16px;
+    margin-left: 8px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}

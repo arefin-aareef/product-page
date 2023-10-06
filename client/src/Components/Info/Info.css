@@ -1,0 +1,32 @@
+.info {
+    background-color: var(--body-bg);
+    padding: 0 0 40px 45px;
+    
+}
+.info-header {
+    display: flex;
+    border-bottom: 3px solid var(--white);
+    width: 795px;
+}
+.info-details {
+    margin-right: 35px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 26px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid var(--deep-green);
+}
+.info-more {
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 26px;
+    padding-bottom: 4px;
+}
+.info-description {
+    width: 798px;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--mid-grey);
+    padding-top: 21px;
+}
