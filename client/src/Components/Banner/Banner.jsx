@@ -7,6 +7,7 @@ import img1 from '../../assets/images/img1.png'
 import img2 from '../../assets/images/img2.png'
 import img3 from '../../assets/images/img3.png'
 import imgAdd from '../../assets/images/imgAdd.png'
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 const Banner = () => {
 
@@ -36,6 +37,7 @@ const Banner = () => {
                 <p> Home <FaAngleRight />  Products <FaAngleRight /> Chicken <FaAngleRight />
                  <span> Broiler Chicken Drumsticks <span className='special-element'>&#40;</span>± 50gm<span className='special-element'>&#41;</span> 1kg</span>
                 </p>
+                <DarkModeToggle />
             </div>
 
             <div className='banner-content'>

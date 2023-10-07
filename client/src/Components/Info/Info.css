@@ -5,7 +5,7 @@
 }
 .info-header {
     display: flex;
-    border-bottom: 3px solid var(--white);
+    border-bottom: 3px solid var(--card-bg);
     width: 795px;
 }
 .info-details {

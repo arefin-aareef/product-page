@@ -4,8 +4,8 @@ nav {
 .nav-info {
     display: flex;
     justify-content: space-between;
-    background-color: var(--light-green);
-    color: var(--white);
+    background-color: var(--nav-info);
+    color: var(--card-bg);
     padding: 4px 16px;
   }
   .nav-info p {
@@ -35,6 +35,8 @@ nav {
   }
   .nav-part select {
     border: none;
+    background-color: var(--card-bg);
+    color: var(--text-primary);
   }
   .anchor-bar {
     margin: 0 13px;
@@ -51,6 +53,7 @@ nav {
     border: none;
     width: 280px;
     margin-left: 9px;
+    background-color: var(--card-bg);
   }
   .nav-input input:focus-visible {
     outline: none
@@ -61,7 +64,7 @@ nav {
   }
   .fav-count {
     background-color: var(--mid-green);
-    color: var(--white);
+    color: var(--card-bg);
     border-radius: 50%;
     text-align: center;
     width: 17px;

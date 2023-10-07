@@ -4,20 +4,24 @@
 }
 
 :root {
-  --light-green: #4abd88;
+  --nav-info: #4abd88;
   --lime-green: #C6F6D5;
   --mid-green: #0db04b;
   --deep-green: #11823B;
   --dark-green: #22543D;
   --text-primary: #000000;
-  --white: #ffffff;
+  --card-bg: #ffffff;
   --input-border: #e5e5e5;
 
   --body-bg: #F3F3EF;
+
   --banner-details-header: #1D1D21;
   --banner-details-tag-bg: #FEEBCB;
   --banner-details-tag-text: #744210;
-  --deep-grey: #333333;
+  --banner-text-decoration: #EB5757;
+  --banner-details-price: #333333;
+  --banner-btn: #000000;
+
   --light-grey: #777777;
   --mid-grey: #444444;
   --btn-bg: #DFE3E8;
@@ -29,6 +33,12 @@
 
   --footer-bg: #ECECE8;
 }
+
+.dark {
+  background-color: black; 
+  color: white;
+}
+
 html {
   max-width: 1280px;
   min-width: 320px;
@@ -46,3 +56,4 @@ body {
 .special-element {
   font-family: Arial, sans-serif;
 }
+

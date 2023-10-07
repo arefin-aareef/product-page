@@ -13,6 +13,7 @@
 }
 .btn-left {
     background-color: var(--btn-bg);
+    color: var(--text-primary);
     border: none;
     width: 32px;
     height: 32px;
@@ -20,7 +21,8 @@
     border-radius: 4px;
 }
 .btn-right {
-    background-color: var(--white);
+    background-color: var(--btn-bg);
+    color: var(--text-primary);
     border: none;
     border-radius: 4px;
     width: 32px;
@@ -33,7 +35,7 @@
 }
 .product-card {
     margin-right: 12px;
-    background-color: var(--white);
+    background-color: var(--card-bg);
     width: 228px;
     border-radius: 8px;
     position: relative;
@@ -44,7 +46,7 @@
     background-color: var(--deep-green);
     border: none;
     border-radius: 50%;
-    color: var(--white);
+    color: var(--card-bg);
     position: absolute;
     top: 16px;
     left: 16px;

@@ -57,7 +57,7 @@
 .section2 h1 {
     font-weight: 600;
     font-size: 14px;
-    color: var(--deep-grey);
+    color: var(--banner-details-price);
     padding-bottom: 26px;
 }
 .section2 p {
